@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
 #import numpy as np
+import moncli
 from moncli import client
 
-client.api_key_v2 = 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjEyNDA3MDQ4OSwidWlkIjoxNjIzOTI1MCwiaWFkIjoiMjAyMS0wOS0xMFQwNDozOToxNC4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6NzE1NjUwNSwicmduIjoidXNlMSJ9.7qjR_U4xyaavf5lPxAz2OjwYDcUTQoFE6kJeaLfJWq0'
-
+moncli.api.api_key = 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjEyNDA3MDQ4OSwidWlkIjoxNjIzOTI1MCwiaWFkIjoiMjAyMS0wOS0xMFQwNDozOToxNC4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6NzE1NjUwNSwicmduIjoidXNlMSJ9.7qjR_U4xyaavf5lPxAz2OjwYDcUTQoFE6kJeaLfJWq0'
+moncli.api.connection_timeout = 30
 
 # Monday
 def grabar():
