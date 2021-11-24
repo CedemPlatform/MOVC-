@@ -19,7 +19,7 @@ def grabar():
 
 # STREAMLIT
 # Menú Usuario
-st.title('Master in Ownership and Value Creation - Relevancia PIE Septiembre')
+st.title('Master in Ownership and Value Creation - Relevancia PIE Noviembre')
 st.image('MOVC.jpg')
 # Menú tareas
 st.subheader('Selecciona tu Coach del Posgrado en Innovación y emprendimiento')
